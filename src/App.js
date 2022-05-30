@@ -7,11 +7,12 @@ import Store from './pages/Store';
 import About from './pages/About';
 import Gmail from './pages/Gmail';
 import {Routes, Route} from 'react-router-dom'
+import GlobalStyle from './globalStyle'
 
 function App() {
   return (
     <>
-    
+     <GlobalStyle/>
       <Navbar/>
       <Home/>
      <Routes>
